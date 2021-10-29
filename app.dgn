@@ -1,0 +1,28 @@
+
+///////////////////////////////////
+//                               //
+// This Code Was Auto Generated  //
+//      With <[xml2dragon]>      //
+//       Made By Dev Bash        //
+//                               //
+///////////////////////////////////
+
+select "android"
+
+LinearLayout1 = newLinearLayout()
+LinearLayout1.setLayoutParams({"layout_height":MATCH_PARENT,"layout_width":MATCH_PARENT})
+LinearLayout1.setOrientation(LinearLayout.VERTICAL)
+LinearLayout1.setGravity(17)
+
+EditText1 = newEditText()
+EditText1.setWidth(WRAP_CONTENT)
+EditText1.setHeight(WRAP_CONTENT)
+LinearLayout1.addView(EditText1)
+
+Button1 = newButton()
+Button1.setWidth(WRAP_CONTENT)
+Button1.setHeight(WRAP_CONTENT)
+Button1.setText("Button")
+LinearLayout1.addView(Button1)
+
+showPanel(LinearLayout1)

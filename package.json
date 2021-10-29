@@ -1,0 +1,29 @@
+{
+  "name": "xml2dragon",
+  "version": "1.0.5",
+  "description": "Xml To Dragon Programming Language Converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": {
+    "name": "Dev Bash",
+    "email": "ikorosamuel1@gmail.com"
+  },
+  "bin": {
+    "xml2dragon": "./index.js"
+  },
+  "keywords": [
+    "dragon",
+    "xml",
+    "converter",
+    "bash"
+  ],
+  "files": [
+    "README.md"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}
